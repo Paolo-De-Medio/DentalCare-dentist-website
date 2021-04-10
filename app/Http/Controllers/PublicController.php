@@ -57,7 +57,13 @@ class PublicController extends Controller
             }
         }
     }
+
+    public function form(){
+        return view('contatti');
+    }
 }
+
+
 
 
 ?>
