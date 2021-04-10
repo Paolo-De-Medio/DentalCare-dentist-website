@@ -20,18 +20,18 @@ class PublicController extends Controller
             ['img'=>'','name'=>'giovanni','description'=>'descrizione 4']
         ];
 
-        return view('chiSiamo');
+        return view('chiSiamo', ['staff'=>$staff]);
     }
 
     public function trattamenti(){
 
         $trattamenti = [
             ['icon'=>'','title'=>'titolo 1','description'=>'testo 1'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 2'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 3'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 4'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 5'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 6']
+            ['icon'=>'','title'=>'titolo 2','description'=>'testo 2'],
+            ['icon'=>'','title'=>'titolo 3','description'=>'testo 3'],
+            ['icon'=>'','title'=>'titolo 4','description'=>'testo 4'],
+            ['icon'=>'','title'=>'titolo 5','description'=>'testo 5'],
+            ['icon'=>'','title'=>'titolo 6','description'=>'testo 6']
 
         ];
 
@@ -42,11 +42,11 @@ class PublicController extends Controller
 
         $trattamenti = [
             ['icon'=>'','title'=>'titolo 1','description'=>'testo 1'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 2'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 3'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 4'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 5'],
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 6']
+            ['icon'=>'','title'=>'titolo 2','description'=>'testo 2'],
+            ['icon'=>'','title'=>'titolo 3','description'=>'testo 3'],
+            ['icon'=>'','title'=>'titolo 4','description'=>'testo 4'],
+            ['icon'=>'','title'=>'titolo 5','description'=>'testo 5'],
+            ['icon'=>'','title'=>'titolo 6','description'=>'testo 6']
 
         ];
 
