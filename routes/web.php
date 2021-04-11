@@ -22,4 +22,6 @@ Route::get('/servizi',[PublicController::class,'trattamenti'])->name('servizi');
 
 Route::get('/contatti',[PublicController::class,'form'])->name('contatti');
 
+Route::post('/contatti/submit',[PublicController::class,'submit'])->name('contatti.submit');
+
 Route::get('/servizi/dettalio/{title}',[PublicController::class, 'dettagli'])->name('servizi.dettaglio');
