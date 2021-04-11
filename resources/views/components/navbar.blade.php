@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-custom bg-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-custom bg-custom sticky-top">
     <div class="container">
         <a class="navbar-brand link-custom" href="{{route('homepage')}}"><i class="fas fa-tooth me-1 tc-main"></i>Dental<span class="tc-main">Care</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

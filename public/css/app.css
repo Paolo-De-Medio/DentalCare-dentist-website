@@ -10855,6 +10855,10 @@ h1, h3, h4, h5{
 
 /* NAVBAR */
 
+.bg-custom{
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
 .navbar-brand{
   font-weight: 600;
 }
@@ -10913,7 +10917,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: 1;
   }
   
