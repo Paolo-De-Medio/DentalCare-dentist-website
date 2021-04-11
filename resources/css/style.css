@@ -1,3 +1,40 @@
+body{
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --main-color: rgb(44, 188, 189);
+  --sec-color: white;
+}
+
+.tc-main{
+  color: var(--main-color);
+}
+
+/* NAVBAR */
+
+.navbar-brand{
+  font-weight: 600;
+}
+.nav-custom{
+  text-decoration: none;
+  color: black !important;
+}
+
+.link-custom:hover{
+  color: var(--main-color);
+  transform: scale(1.1);
+  transition: 2s all ease-in-out;
+}
+
+a{
+  color: black;
+}
+
 header {
     position: relative;
     background-color: black;
@@ -24,7 +61,7 @@ header {
 
   .button-header{
       text-decoration: none;
-      background-color: rgb(1, 188, 215);
+      background-color: var(--main-color);
       padding: 10px;
       border-radius: 2px;
 
@@ -56,8 +93,8 @@ header {
   }
 
   .bg-info{
-    background: rgb(45,158,114);
-    background: linear-gradient(90deg, rgba(45,158,114,1) 0%, rgba(130,255,255,1) 100%);
+    background: var(--main-color);
+    background: linear-gradient(90deg, var(--main-color), rgb(161, 255, 255) 100%);
   }
 
   .button-custom{
@@ -67,3 +104,11 @@ header {
     border-radius: 2px;
 
 }
+
+/* CARD STAFF */
+.card-custom:hover{
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
+}
+
+/* GO UP BUTTON */

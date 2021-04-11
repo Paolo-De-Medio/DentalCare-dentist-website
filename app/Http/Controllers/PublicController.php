@@ -17,10 +17,14 @@ class PublicController extends Controller
     public function staff(){
 
         $staff = [
-            ['img'=>'','name'=>'francesco','description'=>'descrizione 1'],
-            ['img'=>'','name'=>'gianluca','description'=>'descrizione 2'],
-            ['img'=>'','name'=>'laura','description'=>'descrizione 3'],
-            ['img'=>'','name'=>'giovanni','description'=>'descrizione 4']
+            ['img'=>'/img/team/francesco-talamona.png','name'=>'Francesco Talamona','description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi rerum, molestias eius et repellendus accusantium necessitatibus provident, nam deleniti nemo!'],
+            ['img'=>'/img/team/marco-insabato.png','name'=>'Marco Insabato','description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi rerum, molestias eius et repellendus accusantium necessitatibus provident, nam deleniti nemo!'],
+            ['img'=>'/img/team/andrea-gernone.png','name'=>'Andrea Gernone','description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi rerum, molestias eius et repellendus accusantium necessitatibus provident, nam deleniti nemo!'],
+            ['img'=>'/img/team/gaia-assenti.png','name'=>'Gaia Assenti','description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi rerum, molestias eius et repellendus accusantium necessitatibus provident, nam deleniti nemo!'],
+            ['img'=>'/img/team/antonio-masoni.png','name'=>'Antonio Masoni','description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi rerum, molestias eius et repellendus accusantium necessitatibus provident, nam deleniti nemo!'],
+            ['img'=>'/img/team/micaela-pizzillo.png','name'=>'Micaela Pizzillo','description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi rerum, molestias eius et repellendus accusantium necessitatibus provident, nam deleniti nemo!']
+
+
         ];
 
         return view('chiSiamo', ['staff'=>$staff]);
