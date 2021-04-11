@@ -1,31 +1,43 @@
 <x-layout>
     <div class="container-fluid">
-        <div class="row text-center">
-            <h1>Contattaci</h1>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-5">
+            <div class="row p-4 bg-main">
+                <div class="col-12 text-center text-white">
+                    <h2 class="fw-bold">CONTATTACI</h2>
+                </div>
+            </div>
+    </div>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-12 col-md-6">
                 <img src="/img/Form.png" class="img-fluid" alt="">
             </div>
     
-            <div class="col-12 col-md-7">
+            <div class="card p-5 col-12 col-md-6">
                 <form method="POST" action="{{route('contatti.submit')}}">
                     @csrf
                     <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nome e Cognome</label>
+                    <label for="exampleInputEmail1" class="form-label tc-main fw-bold">Nome e Cognome</label>
                     <input name="user" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Indirizzo Email</label>
+                    <label for="exampleInputPassword1" class="form-label tc-main fw-bold">Indirizzo Email</label>
                     <input name="email" type="email" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Richiesta informazioni</label>
+                        <label for="exampleFormControlTextarea1" class="form-label tc-main fw-bold">Richiesta informazioni</label>
                         <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Richiedi le informazioni necessarie"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Invia</button>
+                    <button type="submit" class="btn-custom">Invia</button>
                 </form>
+            </div>
+        </div>
+        
+        <div class="row p-5">
+            <div class="col-12 text-center fw-light">
+                <p>Lorem Impsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident molestias expedita ex culpa voluptate accusamus ea aliquam porro qui. Incidunt consequatur blanditiis ad quis doloremque quas iure. Earum, quod cumque.</p>
+                <i class="far fa-copyright me-2"></i><span>Paolo De Medio</span>
             </div>
         </div>
     </div>   

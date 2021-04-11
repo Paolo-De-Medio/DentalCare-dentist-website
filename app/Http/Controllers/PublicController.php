@@ -33,12 +33,15 @@ class PublicController extends Controller
     public function trattamenti(){
 
         $trattamenti = [
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 1'],
-            ['icon'=>'','title'=>'titolo 2','description'=>'testo 2'],
-            ['icon'=>'','title'=>'titolo 3','description'=>'testo 3'],
-            ['icon'=>'','title'=>'titolo 4','description'=>'testo 4'],
-            ['icon'=>'','title'=>'titolo 5','description'=>'testo 5'],
-            ['icon'=>'','title'=>'titolo 6','description'=>'testo 6']
+            ['img'=>'/img/servizi/Estetica.jpg','title'=>'ODONTOIATRIA ESTETICA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/implantologia.jpg','title'=>'IMPLANTOLOGIA MODERNA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/Protesi.jpg','title'=>'PROTESI FISSE E MOBILI','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/chirurgia-orale.jpg','title'=>'CHIRURGIA ORALE E PARODONTOLOGIA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/Conservativa.jpg','title'=>'PREVENZIONE ORALE E IGIENE DENTALE','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/convenzioni.jpg','title'=>'TUTTE LE CONVENZIONI','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/Sonno.jpg','title'=>'MEDICINA DEL SONNO','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...'],
+            ['img'=>'/img/servizi/Gnatologia.jpg','title'=>'GNATOLOGIA AVANZATA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam...']
+
 
         ];
 
@@ -48,12 +51,15 @@ class PublicController extends Controller
     public function dettagli($title){
 
         $trattamenti = [
-            ['icon'=>'','title'=>'titolo 1','description'=>'testo 1'],
-            ['icon'=>'','title'=>'titolo 2','description'=>'testo 2'],
-            ['icon'=>'','title'=>'titolo 3','description'=>'testo 3'],
-            ['icon'=>'','title'=>'titolo 4','description'=>'testo 4'],
-            ['icon'=>'','title'=>'titolo 5','description'=>'testo 5'],
-            ['icon'=>'','title'=>'titolo 6','description'=>'testo 6']
+            ['img'=>'/img/servizi/Estetica.jpg','title'=>'ODONTOIATRIA ESTETICA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/implantologia.jpg','title'=>'IMPLANTOLOGIA MODERNA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/Protesi.jpg','title'=>'PROTESI FISSE E MOBILI','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/chirurgia-orale.jpg','title'=>'CHIRURGIA ORALE E PARODONTOLOGIA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/Conservativa.jpg','title'=>'PREVENZIONE ORALE E IGIENE DENTALE','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/convenzioni.jpg','title'=>'TUTTE LE CONVENZIONI','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/Sonno.jpg','title'=>'MEDICINA DEL SONNO','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.'],
+            ['img'=>'/img/servizi/Gnatologia.jpg','title'=>'GNATOLOGIA AVANZATA','description'=>'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae mollitia quod laboriosam.']
+
 
         ];
 
