@@ -1,4 +1,12 @@
 <x-layout>
+    <div class="container-fluid bg-main">
+        <div class="row p-4">
+            <div class="col-12 text-center text-white">
+                <h2 class="fw-bold">CHI SIAMO</h2>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             @foreach ($staff as $person)           

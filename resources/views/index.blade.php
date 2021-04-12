@@ -14,7 +14,7 @@
         <div class="container h-100">
           <div class="row d-flex h-100 text-center align-items-center">
             <div class="col-12 col-md-6 text-white text-start">
-              <h1 class="display-3 fw-bold"><i class="fas fa-tooth me-1"></i>Dental<span class="tc-main">Care</span></h1>
+              <h1 class="display-3"><i class="fas fa-tooth me-1"></i>Dental<span class="tc-main">Care</span></h1>
               <p class="lead mb-4 tc-main">Gli specialisti del tuo sorriso</p>
               <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora cupiditate culpa itaque voluptates dignissimos corporis ducimus.</p>
               <a href="#" class="btn-custom text-white">Maggiori Informazioni</a>
