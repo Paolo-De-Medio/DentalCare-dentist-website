@@ -6,7 +6,7 @@
       </div>
     @endif
 
-    <header>
+    <header id="header">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="/video/video4.mp4" type="video/mp4">
@@ -153,5 +153,6 @@
     </div>
 
       <!-- GO UP BUTTON --> 
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+      <a href="/#header" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></a>
+      
 </x-layout>
